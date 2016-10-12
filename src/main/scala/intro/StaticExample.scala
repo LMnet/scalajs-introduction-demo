@@ -1,13 +1,13 @@
 package intro
 
-import fr.iscpif.scaladget.mapping.d3
-
 import scala.scalajs.js
 
 class StaticExample {
 
   def main(): Unit = {
     // https://bl.ocks.org/mbostock/7322386
+
+    import fr.iscpif.scaladget.mapping.d3
 
     val data = js.Array(4, 8, 15, 16, 23, 42)
 

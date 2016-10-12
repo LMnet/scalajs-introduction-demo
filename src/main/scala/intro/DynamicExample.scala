@@ -1,9 +1,9 @@
 package intro
 
 import scala.scalajs.js
-import scala.scalajs.js.JSApp
 
-object Main extends JSApp {
+class DynamicExample {
+
   def main(): Unit = {
     // https://bl.ocks.org/mbostock/7322386
 
@@ -22,5 +22,4 @@ object Main extends JSApp {
       .style("width", (d: js.Dynamic) => x(d) + "px")
       .text((d: js.Dynamic) => d)
   }
-
 }

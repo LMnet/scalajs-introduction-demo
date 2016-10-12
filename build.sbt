@@ -1,4 +1,4 @@
-name := "scalajs-introduction"
+name := "scalajs-introduction-demo"
 
 version := "0.0.1-SNAPSHOT"
 

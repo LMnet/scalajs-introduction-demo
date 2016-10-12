@@ -21,5 +21,6 @@ class DynamicExample {
       .enter().append("div")
       .style("width", (d: js.Dynamic) => x(d) + "px")
       .text((d: js.Dynamic) => d)
+    //.ololo()
   }
 }

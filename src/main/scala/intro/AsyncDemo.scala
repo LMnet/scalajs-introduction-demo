@@ -4,8 +4,8 @@ import scala.concurrent.Future
 
 object AsyncDemo {
 
-//  import intro.Main._
-//
+  import intro.Main._
+
 //  private val predefinedUsers = Seq(
 //    User("Thrall", Role.Admin),
 //    User("Jaina", Role.User),
@@ -24,11 +24,9 @@ object AsyncDemo {
 //  val predefinedUsersNames = predefinedUsers.map(_.name)
 //
 //  def getUserByName(name: String): Future[User] = {
-//    Future.successful {
-//      predefinedUsers
-//        .find(_.name == name)
-//        .getOrElse(throw new NoSuchElementException)
-//    }
+//    predefinedUsers
+//      .find(_.name == name).map(Future.successful)
+//      .getOrElse(Future.failed(new NoSuchElementException))
 //  }
 //
 //  def isAbleToDoAction(role: Role, action: Action): Future[Boolean] = {

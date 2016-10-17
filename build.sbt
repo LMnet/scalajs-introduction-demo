@@ -9,7 +9,6 @@ scalacOptions ++= Seq("-feature")
 enablePlugins(ScalaJSPlugin)
 
 libraryDependencies ++= Seq(
-  "fr.iscpif" %%% "scaladget" % "0.8.1",
-  "org.scala-js" %%% "scalajs-dom" % "0.9.0",
-  "com.lihaoyi" %% "scalatags" % "0.6.1"
+  "org.scala-js" %%% "scalajs-dom" % "0.9.1",
+  "com.lihaoyi" %%% "scalatags" % "0.6.1"
 )

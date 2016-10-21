@@ -6,7 +6,7 @@ object AsyncDemo {
 
   import intro.Main._
 
-//  private val predefinedUsers = Seq(
+//  private val predefinedUsers: Seq[User] = Seq(
 //    User("Thrall", Role.Admin),
 //    User("Jaina", Role.User),
 //    User("Arthas", Role.Moderator(Set(Permission.AddUser, Permission.ChangeUser))),
@@ -21,7 +21,7 @@ object AsyncDemo {
 //    case object DeleteUser extends Action
 //  }
 //
-//  val predefinedUsersNames = predefinedUsers.map(_.name)
+//  val predefinedUsersNames: Seq[String] = predefinedUsers.map(_.name)
 //
 //  def getUserByName(name: String): Future[User] = {
 //    predefinedUsers
